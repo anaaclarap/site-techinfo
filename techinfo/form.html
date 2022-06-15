@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="shortcut icon" href="assets/imagens/favicon.ico" type="image/x-icon">
+    <title>Formulário de Experiência</title>
+</head>
+<body>
+        <nav>
+            <div class="logo-container">
+                <img src="assets/imagens/logo.png" alt="logo" width="70px" height="70px">
+                <h1 id="header">TechInfo</h1>
+            </div>
+                
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Sobre nós</a></li>
+                <li><a href="#">Formulário de Experiência</a></li>
+            </ul>
+        </nav>
+    
+            <article>
+                <div class="container">
+                    <div class="box">
+                        <h1 id="title">Formulário de Experiência de Dev´s</h1>
+                        <p>Compartilhe conosco a sua Experiência!</p>
+                        <div class="image">
+                            <img id="image" src="assets/imagens/imagemform.jpg" alt="" width="426.6px" height="284px">
+                        </div>
+                        <br>   
+                        
+        
+
+                        <label for="nome"><strong>Nome Completo:</strong></label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" class="user" required><br>
+                        <label for="email"><strong>Email:</strong></label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu email" class="user" required><br>
+                        <label for="telefone"><strong>Telefone:</strong></label>
+                        <input type="tel" name="telefone" id="telefone" class="user" placeholder="(xx) xxxx-xxxx"> <br> <br>
+
+                        <label><strong>Em qual área você desenvolve?</strong></label><br>
+                        <label>
+                            <input type="radio" value="frontend" name="area"checked>Front-end
+                        </label>
+                        <label>
+                            <input type="radio" value="backend" name="area">Back-end
+                        </label>
+                        <label>
+                            <input type="radio" value="fullstack" name="area">Fullstack
+                        </label><br><br>
+
+                        <label for="senioridade"><strong>Senioridade:</strong></label>
+                            <select id="senioridade" required>
+                                <option selected disabled value="">Selecione</option>
+                                <option>Júnior</option>
+                                <option>Pleno</option>
+                                <option>Sênior</option>
+                            </select><br><br>
+
+                            <label><strong>Selecione as tecnologias que utiliza:</strong></label><br>
+                            <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                            <label for="tecnologia1"> HTML</label>
+                            <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                            <label for="tecnologia2"> CSS</label>
+                            <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+                            <label for="tecnologia3"> JavaScript</label>
+                            <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+                            <label for="tecnologia4"> PHP</label>
+                            <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
+                            <label for="tecnologia5"> C#</label>
+                            <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
+                            <label for="tecnologia6"> Python</label>
+                            <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
+                            <label for="tecnologia7"> Java</label><br><br>
+
+                            <label for="comentário"><strong>Comente sobre sua experiência:</strong></label><br>
+                                <textarea rows="6" style="width:100%" id="experiencia" name="experiencia"></textarea><br><br>
+
+                            <button class="botao">Concluído</button>
+
+
+                            <br><br>
+                            <p>Voltar para a <strong><a href="index.html">página inicial</a></strong></p>   
+                    </div>       
+                </div>        
+            </article> 
+            
+        
+    <footer>
+        <p>TechInfo - By Ana Clara</p>
+    </footer>
+</body>
+</html>

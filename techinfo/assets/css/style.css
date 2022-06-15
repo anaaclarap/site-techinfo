@@ -1,0 +1,134 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+
+img {
+    margin-left: 15px;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(164, 179, 248);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+ul {
+    padding: 30px;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+  
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(1, 1, 32)
+}
+
+a:visited {
+    color: rgb(24, 24, 24);
+}
+
+a:hover{
+    color: rgb(102, 101, 101);
+
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #d3d3d3;
+    text-align: center;
+    height: 70px;
+    font-size: small;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+article {
+    width: 100%;
+    height: 1120px;
+    background-color: white;
+}
+
+.body {
+    display: flex;
+}
+
+footer p {
+    padding-inline: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.linha {
+    display: flex;
+    gap: 1rem;
+    padding-top: 2rem;
+    flex-wrap: wrap; 
+}
+
+.linha.flex {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+}
+
+h1 {
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+
+#header {
+    font-size: 2em;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+img.image{
+    width: 204px;
+    height: 137.34px;
+}
+
+
+
+
+ 
